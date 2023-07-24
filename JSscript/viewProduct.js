@@ -4,7 +4,7 @@ Array.from(products).forEach(element=>{
     element.addEventListener('click',()=>{
         var imgsrc=element.src;
         sessionStorage.setItem('imgsrc',imgsrc);
-        window.location.href='../Sproduct/sproduct.html';
+        window.location.href='./Sproduct/sproduct.html';
     })
 })
 var products = document.getElementsByClassName('des');
@@ -13,7 +13,7 @@ Array.from(products).forEach(element=>{
         var pElement=element.parentElement.getElementsByClassName('pro-image')[0]
         var imgsrc=pElement.src;
         sessionStorage.setItem('imgsrc',imgsrc);
-        window.location.href='../Sproduct/sproduct.html';
+        window.location.href='./Sproduct/sproduct.html';
     })
 })
 
